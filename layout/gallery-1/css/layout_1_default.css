@@ -1,0 +1,103 @@
+.rf_gallery{
+	padding: 10px;
+	font-family: play, serif;
+}
+
+.rf_gallery .container{
+	width: 100%;
+}
+
+.rf_gallery .rf_heading{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.rf_gallery .rf_heading .gallery_title{
+	padding:6px !important;
+}
+
+.rf_gallery .rf_item{
+	padding: 9px;
+}
+
+.rf_gallery .img_wrapper{
+	width: 100%;
+	height: auto;
+	padding:9px;
+	margin-top: 7px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.rf_gallery .img_wrapper:hover{
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.rf_gallery .img_wrapper img{
+	width: 100%;
+	height: auto;
+}
+
+.rf_gallery .img_heading .image_title{
+	padding-top: 6px;
+	margin: 0px !important;
+}
+
+.rf_gallery .img_heading .image_title a:hover{
+	text-decoration: none!important;
+}
+
+.rf_gallery .img_heading a:hover{
+	text-decoration: none;
+}
+
+.rf_gallery .img_wrapper .overlay_effect {
+	width: 100%;
+	position: relative;
+}
+
+/****** Box Shadow ******/
+
+.rf_gallery .rf_item{
+	position: sticky;
+}
+
+.rf_gallery .rf_item:before,
+.rf_item:after {
+	top: 80%;
+	width: 50%;
+	left: 12px;
+	z-index: -1;
+	content: "";
+	bottom: 36px;
+	max-width:300px;
+	background: #777;
+	position: absolute;
+	transform: rotate(-8deg);
+	-o-transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg);
+	box-shadow: 0 35px 20px #777;
+	-moz-transform: rotate(-8deg);
+	-webkit-transform: rotate(-8deg);
+	-moz-box-shadow: 0 35px 20px #777;
+	-webkit-box-shadow: 0 35px 20px #777;
+}
+
+.rf_gallery .rf_item:after {
+	left: auto;
+	right: 12px;
+	transform: rotate(8deg);
+	-o-transform: rotate(8deg);
+	-ms-transform: rotate(8deg);
+	-moz-transform: rotate(8deg);
+	-webkit-transform: rotate(8deg);
+}
+
+.rf_gallery .img_wrapper .image {
+	width: 100%;
+	height: auto;
+	display: block;
+}

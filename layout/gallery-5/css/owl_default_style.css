@@ -1,0 +1,76 @@
+.rf_gallery_5{
+	padding: 10px;
+}
+
+.rf_gallery_5 .gallery_title {
+	width: 100%;
+}
+
+.rf_gallery_5 .gallery_title .title{
+	padding-top: 1px;
+	margin: 3px !important;
+	padding: 15px !important;
+}
+
+.rf_gallery_5 .rf_slider .carousel{
+	position: relative !important;
+}
+
+.rf_gallery_5 .rf_slider .carousel-inner{
+	width: 100% !important;
+	overflow: hidden !important;
+	position: relative !important;
+}
+.rf_gallery_5 .rf_slider .carousel-control{
+	width: 0px;
+	top: 46.1%;
+	height: 0px;
+	margin-left: 4% !important;
+	margin-right: 3.5% !important;
+}
+
+.rf_gallery_5 .rf_slider .carousel-control span{
+	font-size: 30px !important;
+}
+
+.rf_gallery_5 .rf_slider .carousel-control span{
+	color: #ccc;
+	width: 48px;
+	height: auto;
+	padding: 13px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.rf_gallery_5 .rf_slider .carousel-control .fa-chevron-right{
+	margin-left: -60px;
+}
+
+.rf_gallery_5 .rf_slider .item {
+	margin: 0;
+	width: 100% ;
+	height: auto !important;
+}
+
+.rf_gallery_5 .rf_slider .item .img_content{
+	top: 50%;
+	left: 50%;
+	width:100%;
+	text-align: center;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.rf_gallery_5 .rf_slider .item .img_content a{
+	/*width: 75%;*/
+}
+
+.rf_gallery_5 .rf_slider .item .img_content .img_title{
+	width: 80%;
+	margin:auto;
+	padding: 13px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.rf_gallery_5 .rf_slider .item .img_content a:hover{
+	text-decoration:none;
+}

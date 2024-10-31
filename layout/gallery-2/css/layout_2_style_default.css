@@ -1,0 +1,48 @@
+.rf_gallery_2 {
+	font-family: play, serif;
+}
+
+.rf_gallery_2 .container-fluid{
+	margin:0;
+	padding: 10px;
+}
+
+.rf_gallery_2 .container-fluid .row{
+	margin: 0;
+}
+
+.rf_gallery_2 .rf_2_heading{
+	width: 100%;
+}
+
+.rf_gallery_2 .rf_2_heading .gallery_title{
+	margin: 0;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.rf_gallery_2 .rf_masonry{
+	overflow: hidden;
+}
+
+.rf_gallery_2 .rf_masonry .row{
+	margin: 0;
+}
+
+.rf_gallery_2 .rf_masonry .rf_image{
+	padding: 0;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	display: inline-flex;
+}
+
+
+.rf_gallery_2 .rf_masonry .rf_image .selected_image{
+	width: 100%;  
+	height: auto; 
+}
+
+.rf_gallery_2 .rf_masonry .rf_image .selected_image:hover{
+	cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.rf_gallery_10 .gallery_title{
+	width: 100%;
+}
+
+.rf_gallery_10 .gallery_title .title{
+	padding: 20px;
+}
+
+.rf_gallery_10 .rf_10_wrapper{
+	margin-bottom: 4%;
+}
+
+.rf_gallery_10 .rf_10_wrapper .img_title{
+	border:1px solid #ddd;
+	border-top-width: 3px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-width: 0;
+	overflow: hidden;
+}
+
+.rf_gallery_10 .rf_10_wrapper .img_title a{
+	text-decoration: none;
+}
+
+.rf_gallery_10 .rf_10_wrapper .img_title .title{
+	margin: 0;
+	padding: 7px 7px;
+}
+
+.rf_gallery_10 .rf_10_wrapper .image img{
+	width: 100%;
+	height: auto;
+}
+
+.rf_gallery_10 .rf_10_wrapper .image img:hover{
+	cursor: pointer;
+}
+
+.rf_gallery_10 .rf_10_gallery .content{
+	margin-bottom: 50px;
+}

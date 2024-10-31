@@ -1,0 +1,48 @@
+.rf_gallery_3 .container-fluid{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.rf_gallery_3 .rf_3_heading {
+	width: 100%;
+	overflow: hidden;
+}
+
+.rf_gallery_3 .rf_3_heading .gallery_title{
+	padding: 7px;
+}
+
+.rf_gallery_3 .rf_masonry{
+	overflow: hidden;
+}
+
+.rf_gallery_3 .rf_masonry .row{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.rf_gallery_3 .rf_masonry .rf_image .img_content{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.rf_gallery_3 .rf_masonry .rf_image .img_content img{
+	width:100%;
+  height: auto;
+}
+
+.rf_gallery_3 .rf_image .selected_image {
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.rf_gallery_3 .rf_image .img_content:hover .selected_image {
+	cursor: pointer;
+	transform: rotate(10deg);
+  
+}
